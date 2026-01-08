@@ -12,7 +12,7 @@
 header{
   /* background-color: #FFF8F3; */
   background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;
-  background-position: top left,bottom right;
+  background-position: 23px 38px,bottom right;
   background-repeat:no-repeat ;
   padding-top: 51px;
 }
@@ -69,6 +69,9 @@ nav .menu a{
   line-height: 30px;
   color: #757575;
 }
+.text-center{
+  text-align: center;
+}
 #banner{
   /* border:1px solid red ; */
   margin: 48px 37px 0 231px;
@@ -101,7 +104,7 @@ margin-bottom: 20px;
   max-width: 585px;
   vertical-align: middle;
 }
-#about ,#skill ,#resume{
+#about , #skill , #resume{
    padding-top: 130px;
 }
 #about .about-container{
@@ -126,7 +129,7 @@ color: #757575;
   /* font-weight: bold; */
 }
  
-}
+
 #skill .skill-container{
   width: 71%;
   max-width: 1140px;
@@ -135,13 +138,14 @@ color: #757575;
 #skill .skill-container .skill-box{
   display: flex;
   gap: 24px;
+  /* margin: 0 auto; */
 }
 .skill-box .skill-card{
   padding: 30px;
   /* border: 1px solid red */
   box-shadow: 0 6px 50px 0 #00000018 ;
   max-width: 267px;
-}
+} 
 .skill-card img{
   max-width: 44px;
   margin-bottom: 30px;
@@ -191,4 +195,42 @@ color: #757575;
 font-size: 16px;
  line-height: 28px;
 color: #757575;
+}
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 117px;
+}
+.footer-container .social{
+  max-width: 562px;
+}
+.footer-container h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.footer-container .social p{
+  font-size: 16px;
+  line-height: 29px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.footer-container .icons a{
+  margin-right: 24px;
+}
+.footer-container form input[type="text"], .footer-container form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
 }
